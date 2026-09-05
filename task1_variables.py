@@ -1,3 +1,4 @@
+
 # Video Game Sales Dataset
 # Source: Adapted from VGChartz (public domain estimates)
 # Each row: [rank, name, platform, year, genre, publisher, na_sales, eu_sales, jp_sales, global_sales]
@@ -49,4 +50,4 @@ total_global_sales = sum(row[GLOBAL_SALES]
 for row in video_game_sales) 
 top_game_share = (video_game_sales[0] 
 [GLOBAL_SALES] / total_global_sales) * 100 
-print("Wi
+print("Wii Sports share of total global sales:", top_game_share, "%")
