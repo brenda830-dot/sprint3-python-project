@@ -1,5 +1,5 @@
 
- Video Game Sales Analysis
+ # Video Game Sales Analysis
 
 A Python-based data analysis script that processes, filters, and formats historical video game sales metrics across global regions.
 
